@@ -12,21 +12,23 @@ export const Presentation = () => {
   return (
     <div className='bg-[#1f2937] pt-20'>
       <div className='mx-auto max-w-7xl px-2 sm:px-6 lg:px-1'>
-        <div className='grid grid-cols-2'>
+        <div className='grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1'>
           <div className=''>
-            <h1 className='text-white text-5xl pb-3 text-bold'>Hello!</h1>
-            <h1 className='text-white text-5xl font-bold tracking-wider'>
+            <h1 className='text-white text-5xl pb-3 text-bold lg:text-left md:text-left text-center'>
+              Hello!
+            </h1>
+            <h1 className='text-white text-5xl font-bold tracking-wider lg:text-left md:text-left text-center'>
               <span className=''></span>I'm Luis de Haro
             </h1>
-            <h1 className='text-4xl pt-2 text-white'>
+            <h1 className='text-4xl pt-2 text-white lg:text-left md:text-left text-center'>
               {' '}
-              <span className='text-[#646DFE] text-bold'>{typeEffect}</span>
+              <span className='text-[#646DFE] text-bold '>{typeEffect}</span>
             </h1>
-            <p className='text-white pt-4'>
+            <p className='text-white pt-4 text-center lg:text-left md:text-left'>
               Software developer focused on web applications, with management
               both in the Front End aspect and in the Back End side.
             </p>
-            <div className='flex items-center gap-10 pt-4'>
+            <div className='flex pb-10 justify-center md:justify-start lg:justify-start gap-10 pt-4'>
               <div className='cursor-pointer border-2 rounded-lg border-[#161616] hover:bg-[#161616] px-3 py-2'>
                 <div className='flex justify-center'>
                   <svg
