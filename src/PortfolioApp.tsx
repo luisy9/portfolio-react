@@ -4,7 +4,7 @@ import { NavBar } from './app/components/NavBar/NavBar';
 export const PortfolioApp = () => {
   return (
     <>
-      <NavBar />
+      <h1>Portafolio</h1>
     </>
   );
 };
