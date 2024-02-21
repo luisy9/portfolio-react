@@ -24,14 +24,14 @@ export const Presentation = () => {
               {' '}
               <span className='text-[#646DFE] text-bold '>{typeEffect}</span>
             </h1>
-            <div className='w-[26rem]'>
+            <div className='lg:w-[26rem] md:w-[26rem]'>
               <p className='text-white pt-4 text-center lg:text-left md:text-left'>
                 Software developer focused on web applications, with management
                 both in the Front End aspect and in the Back End side.
               </p>
             </div>
 
-            <div className='flex pb-10 justify-center md:justify-start lg:justify-start gap-10 pt-4'>
+            <div className='flex pb-10 justify-center md:justify-start lg:justify-start lg:gap-10 md:gap-10 gap-20 pt-4'>
               <div className='cursor-pointer border-2 rounded-lg border-[#161616] hover:bg-[#161616] px-3 py-2'>
                 <a href='https://github.com/luisy9' target='_blank'>
                   <div className='flex justify-center'>
@@ -78,7 +78,7 @@ export const Presentation = () => {
           </div>
           <div>
             {/* Picture of myself */}
-            <div className='rounded-full flex justify-center'>
+            <div className='rounded-full flex justify-center lg:justify-end md:justify-end'>
               <img
                 src={Foto}
                 alt='Foto'
