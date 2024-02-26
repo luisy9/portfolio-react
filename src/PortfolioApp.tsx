@@ -1,4 +1,4 @@
-import { Presentation, Projects, AboutMe } from './app/components';
+import { Presentation, AboutMe } from './app/components';
 import './App.css';
 
 export const PortfolioApp = () => {
@@ -6,7 +6,7 @@ export const PortfolioApp = () => {
     <div className='bg-[#161d27] box-border p-0'>
       <div className='mx-auto max-w-7xl px-2 sm:px-6'>
         {/* Presentation */}
-        <section className='h-auto pt-10 lg:pt-20 md:pt-20'>
+        <section className='lg:h-screen lg:flex lg:justify-center md:flex md:justify-center md:h-screen pt-10 lg:pt-20 md:pt-20'>
           <Presentation />
         </section>
       </div>

@@ -16,7 +16,7 @@ export const NavBar = () => {
     <Disclosure as='nav' className='bg-gray-800 w-full fixed shadow-lg shadow-[#1F2937]-500/20'>
       {({ open }) => (
         <>
-          <div className='mx-auto max-w-7xl px-2 sm:px-6 lg:px-1'>
+          <div className='mx-auto px-2 sm:px-6 lg:px-12'>
             <div className='relative flex h-16 items-center justify-between'>
               <div className='flex flex-1 items-center justify-center sm:items-stretch sm:justify-start'>
                 <div className='flex flex-shrink-0 items-center cursor-pointer'>
