@@ -1,7 +1,5 @@
+import { Presentation, Projects } from './app/components';
 import './App.css';
-import { NavBar } from './app/components/NavBar/NavBar';
-import Presentation from './app/components/Presentation/Presentation';
-import Tecnologies from './app/components/Tecnologies/Tecnologies';
 
 export const PortfolioApp = () => {
   return (
@@ -13,8 +11,9 @@ export const PortfolioApp = () => {
 
       {/* Tecnologias */}
       <div className=''>
-        <Tecnologies />
+        <Projects />
       </div>
+
       {/* Proyectos recientes */}
       <div className=''></div>
     </>

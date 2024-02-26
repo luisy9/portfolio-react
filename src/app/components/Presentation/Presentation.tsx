@@ -75,6 +75,17 @@ export const Presentation = () => {
                 <p className='text-white text-xs pt-1'>LinkedIn</p>
               </div>
             </div>
+            <div className='flex gap-12 items-center'>
+              <h1 className='text-white text-bold'>Tech Stack</h1>
+              <img src='./html5.svg' alt='html5' className='w-7' />
+              <img src='./css.svg' alt='css' className='w-7' />
+              <img src='./javascript.svg' alt='js' className='w-7' />
+              <img src='./react.svg' alt='react' className='w-7' />
+              <img src='./vue.svg' alt='vue' className='w-7' />
+              <img src='./tailwindcss.svg' alt='tailwindcss' className='w-7' />
+              {/* <img src='./mysql.svg' alt='mysql' className='w-7' /> */}
+              <img src='./laravel.svg' alt='laravel' className='w-7' />
+            </div>
           </div>
           <div>
             {/* Picture of myself */}
