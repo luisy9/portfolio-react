@@ -13,7 +13,7 @@ function classNames(...classes) {
 
 export const NavBar = () => {
   return (
-    <Disclosure as='nav' className='bg-gray-800'>
+    <Disclosure as='nav' className='bg-gray-800 w-full fixed shadow-lg shadow-[#1F2937]-500/20'>
       {({ open }) => (
         <>
           <div className='mx-auto max-w-7xl px-2 sm:px-6 lg:px-1'>
