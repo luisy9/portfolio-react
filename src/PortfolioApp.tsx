@@ -11,14 +11,11 @@ export const PortfolioApp = () => {
         </section>
       </div>
       <div className='bg-[#1F2937]'>
-        <div className='mx-auto max-w-7xl px-2 sm:px-6 lg:px-1'>
+        <div className='mx-auto max-w-5xl py-28'>
           {/* Tecnologias */}
           <section className=''>
             <AboutMe />
           </section>
-
-          {/* Proyectos recientes */}
-          <section className=''></section>
         </div>
       </div>
     </div>
