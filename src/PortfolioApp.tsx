@@ -11,7 +11,7 @@ export const PortfolioApp = () => {
         </section>
       </div>
       <div className='bg-[#1F2937]'>
-        <div className='mx-auto max-w-7xl py-28 lg:px-28 md:px-20'>
+        <div className='mx-auto max-w-7xl py-28 lg:px-16 xl:px-28'>
           {/* Tecnologias */}
           <section className=''>
             <AboutMe />
