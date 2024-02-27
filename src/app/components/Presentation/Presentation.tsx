@@ -10,27 +10,29 @@ export const Presentation = () => {
   });
 
   return (
-    <div className='lg:pt-40 md:pt-20 pb-20'>
-      <div className='flex lg:grid md:grid lg:grid-cols-2 lg:gap-40 md:grid-cols-2 md:gap-40 flex-col-reverse'>
+    <div className='xl:pt-40 lg:pt-10'>
+      <div className='flex lg:gap-40 lg:grid lg:grid-cols-2 md:flex md:flex-col-reverse sm:flex sm:flex-col-reverse flex-col-reverse'>
         <div className=''>
-          <h1 className='text-white text-5xl pb-3 text-bold lg:text-left md:text-left text-center'>
+          <h1 className='text-white text-5xl pb-3 text-bold lg:text-left md:text-center text-center'>
             Hello!
           </h1>
-          <h1 className='text-white text-5xl font-bold tracking-wider lg:text-left md:text-left text-center'>
+          <h1 className='text-white text-5xl font-bold tracking-wider lg:text-left md:text-center text-center'>
             <span className=''></span>I'm Luis de Haro
           </h1>
-          <h1 className='text-4xl pt-2 text-white lg:text-left md:text-left text-center'>
+          <h1 className='text-4xl pt-2 text-white lg:text-left md:text-center text-center'>
             {' '}
-            <span className='text-[#646DFE] text-bold '>{typeEffect}</span>
+            <span className='text-[#646DFE] text-bold'>{typeEffect}</span>
           </h1>
-          <div className='lg:w-[27rem] md:w-[27rem]'>
-            <p className='text-white pt-4 text-center lg:text-left md:text-left'>
-              Software developer focused on web applications, with management
-              both in the Front End aspect and in the Back End side.
-            </p>
+          <div className='flex justify-center'>
+            <div className='xl:w-[27rem] lg:w-[40rem]'>
+              <p className='text-white pt-4 text-center lg:text-left md:text-center'>
+                Software developer focused on web applications, with management
+                both in the Front End aspect and in the Back End side.
+              </p>
+            </div>
           </div>
 
-          <div className='flex lg:pb-10 md:pb-10 pb-0 justify-center md:justify-start lg:justify-start lg:gap-10 md:gap-10 gap-20 pt-4'>
+          <div className='lg:flex lg:justify-start lg:gap-10 lg:pt-5 md:flex md:justify-center md:gap-10 md:pt-7 flex justify-center pt-5'>
             <div className='cursor-pointer border-2 rounded-lg border-[#161616] hover:bg-[#161616] px-3 py-2'>
               <a href='https://github.com/luisy9' target='_blank'>
                 <div className='flex justify-center'>
@@ -77,7 +79,7 @@ export const Presentation = () => {
         </div>
         <div>
           {/* Picture of myself */}
-          <div className='rounded-full flex justify-center items-center lg:justify-start md:justify-end lg:pt-0 md:pt-0 pt-14 lg:pb-0 md:pb-0 pb-5'>
+          <div className='rounded-full flex justify-center items-center xl:justify-start lg:justify-center md:justify-center xl:pt-0 md:pt-0 pt-14 lg:pb-0 md:pb-10 pb-5'>
             <img
               src={Foto}
               alt='Foto'
@@ -86,56 +88,62 @@ export const Presentation = () => {
           </div>
         </div>
       </div>
-      <div className='lg:flex lg:pt-24 md:pt-5 lg:text-center md:flex lg:gap-7 md:gap-7 hidden'>
-        <div className='lg:flex lg:items-center md:flex md:items-center'>
-          <h1 className='text-white text-bold lg:text-start md:text-start lg:pb-0 md:pb-0 pb-6'>
-            Tech Stack
-          </h1>
-        </div>
-        <div className='flex gap-5 cursor-pointer duration-300 hover:translate-y-[-8px]'>
-          <img src='https://skillicons.dev/icons?i=html' alt='html' />
-          <img src='https://skillicons.dev/icons?i=css' alt='css' />
-        </div>
+      <div className='md:flex md:justify-center md:pt-9 lg:hidden hidden'>
+        <h1 className='text-white text-center text-bold'>Tech Stackxx</h1>
+      </div>
+      <div className=''>
+        <div className='lg:flex lg:justify-start lg:pt-24 md:pt-10 lg:text-center md:flex md:flex-row md:justify-center md:gap-5 lg:gap-7 hidden'>
+          <div className='lg:flex lg:items-center'>
+            <h1 className='text-white text-bold lg:text-start lg:pb-0 md:hidden lg:block'>
+              Tech Stack
+            </h1>
+          </div>
+          <div className='flex gap-5 cursor-pointer duration-300 hover:translate-y-[-8px]'>
+            <img src='https://skillicons.dev/icons?i=html' alt='html' />
+            <img src='https://skillicons.dev/icons?i=css' alt='css' />
+          </div>
 
-        <div className='flex gap-5 cursor-pointer duration-300 hover:translate-y-[-8px]'>
-          <img
-            src='https://skillicons.dev/icons?i=javascript'
-            alt='javascript'
-          />
-          <img
-            src='https://skillicons.dev/icons?i=typescript'
-            alt='typescript'
-          />
-        </div>
-        <div className='flex gap-5 cursor-pointer duration-300 hover:translate-y-[-8px]'>
-          <img src='https://skillicons.dev/icons?i=react' alt='react' />
-          <img src='https://skillicons.dev/icons?i=vue' alt='vue' />
-        </div>
-        <div className='flex gap-5 cursor-pointer duration-300 hover:translate-y-[-8px]'>
-          <img src='https://skillicons.dev/icons?i=bootstrap' alt='bootstrap' />
-          <img
-            src='https://skillicons.dev/icons?i=tailwindcss'
-            alt='tailwindcss'
-          />
-        </div>
-        <div className='flex gap-5 cursor-pointer duration-300 hover:translate-y-[-8px]'>
-          <img src='https://skillicons.dev/icons?i=nodejs' alt='nodejs' />
-          <img src='https://skillicons.dev/icons?i=laravel' alt='laravel' />
+          <div className='flex gap-5 cursor-pointer duration-300 hover:translate-y-[-8px]'>
+            <img
+              src='https://skillicons.dev/icons?i=javascript'
+              alt='javascript'
+            />
+            <img
+              src='https://skillicons.dev/icons?i=typescript'
+              alt='typescript'
+            />
+          </div>
+          <div className='flex gap-5 cursor-pointer duration-300 hover:translate-y-[-8px]'>
+            <img src='https://skillicons.dev/icons?i=react' alt='react' />
+            <img src='https://skillicons.dev/icons?i=vue' alt='vue' />
+          </div>
+          <div className='flex gap-5 cursor-pointer duration-300 hover:translate-y-[-8px]'>
+            <img
+              src='https://skillicons.dev/icons?i=bootstrap'
+              alt='bootstrap'
+            />
+            <img
+              src='https://skillicons.dev/icons?i=tailwindcss'
+              alt='tailwindcss'
+            />
+          </div>
+          <div className='flex gap-5 cursor-pointer duration-300 hover:translate-y-[-8px]'>
+            <img src='https://skillicons.dev/icons?i=nodejs' alt='nodejs' />
+            <img src='https://skillicons.dev/icons?i=laravel' alt='laravel' />
+          </div>
         </div>
       </div>
 
-      <div className='lg:hidden md:hidden gap-11 items-center lg:py-0 md:py-0 py-10'>
+      <div className='lg:hidden md:hidden lg:py-0 md:py-0 py-10'>
         <h1 className='text-white text-bold lg:text-start md:text-start text-center lg:pb-0 md:pb-0 pb-6'>
           Tech Stack
         </h1>
 
-        <ul className='flex justify-center'>
-          <li className='cursor-pointer lg:flex md:flex lg:gap-7 grid grid-cols-3 gap-3'>
-            <div className='flex gap-5 px-5 duration-300 hover:translate-y-[-8px]'>
+        <ul className=''>
+          <li className='cursor-pointer lg:flex md:flex lg:gap-7 grid grid-cols-1'>
+            <div className='flex justify-center gap-5'>
               <img src='https://skillicons.dev/icons?i=html' alt='html' />
               <img src='https://skillicons.dev/icons?i=css' alt='css' />
-            </div>
-            <div className='flex gap-5 px-5 duration-300 hover:translate-y-[-8px]'>
               <img
                 src='https://skillicons.dev/icons?i=javascript'
                 alt='javascript'
@@ -145,24 +153,27 @@ export const Presentation = () => {
                 alt='typescript'
               />
             </div>
-            <div className='flex gap-5 px-5 duration-300 hover:translate-y-[-8px]'>
-              <img
-                src='https://skillicons.dev/icons?i=react'
-                alt='tailwindcss'
-              />
-              <img src='https://skillicons.dev/icons?i=vue' alt='bootatrap' />
+          </li>
+          <li className=''>
+            <div className='flex justify-center gap-5 py-5'>
+              <img src='https://skillicons.dev/icons?i=react' alt='html' />
+              <img src='https://skillicons.dev/icons?i=vue' alt='css' />
             </div>
           </li>
         </ul>
-        <ul className='flex justify-center'>
-          <li className='lg:flex md:flex grid grid-cols-2 pt-7 cursor-pointer'>
-            <div className='flex gap-5 px-5 duration-300 hover:translate-y-[-8px]'>
-              <img src='https://skillicons.dev/icons?i=bootstrap' alt='html' />
-              <img src='https://skillicons.dev/icons?i=tailwindcss' alt='css' />
-            </div>
-            <div className='flex gap-5 px-5 duration-300 hover:translate-y-[-8px]'>
-              <img src='https://skillicons.dev/icons?i=nodejs' alt='html' />
-              <img src='https://skillicons.dev/icons?i=laravel' alt='css' />
+        <ul className=''>
+          <li className='lg:flex md:flex grid grid-cols-1 cursor-pointer'>
+            <div className='flex gap-5 justify-center'>
+              <img
+                src='https://skillicons.dev/icons?i=bootstrap'
+                alt='bootstrap'
+              />
+              <img
+                src='https://skillicons.dev/icons?i=tailwindcss'
+                alt='tailwindcss'
+              />
+              <img src='https://skillicons.dev/icons?i=nodejs' alt='nodejs' />
+              <img src='https://skillicons.dev/icons?i=laravel' alt='laravel' />
             </div>
           </li>
         </ul>
