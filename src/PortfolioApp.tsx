@@ -1,4 +1,4 @@
-import { Presentation, AboutMe } from './app/components';
+import { Presentation, AboutMe, Projects } from './app/components';
 import './App.css';
 
 export const PortfolioApp = () => {
@@ -17,6 +17,11 @@ export const PortfolioApp = () => {
             <AboutMe />
           </section>
         </div>
+      </div>
+      <div className=''>
+        <section className=''>
+          <Projects />
+        </section>
       </div>
     </div>
   );
