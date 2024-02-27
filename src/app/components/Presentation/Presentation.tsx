@@ -92,20 +92,36 @@ export const Presentation = () => {
             Tech Stack
           </h1>
         </div>
+        <div className='flex gap-5 cursor-pointer duration-300 hover:translate-y-[-8px]'>
+          <img src='https://skillicons.dev/icons?i=html' alt='html' />
+          <img src='https://skillicons.dev/icons?i=css' alt='css' />
+        </div>
 
-        <img src='https://skillicons.dev/icons?i=html' alt='html' />
-        <img src='https://skillicons.dev/icons?i=css' alt='css' />
-        <img src='https://skillicons.dev/icons?i=javascript' alt='javascript' />
-        <img src='https://skillicons.dev/icons?i=typescript' alt='typescript' />
-        <img src='https://skillicons.dev/icons?i=react' alt='react' />
-        <img src='https://skillicons.dev/icons?i=vue' alt='vue' />
-        <img src='https://skillicons.dev/icons?i=bootstrap' alt='bootstrap' />
-        <img
-          src='https://skillicons.dev/icons?i=tailwindcss'
-          alt='tailwindcss'
-        />
-        <img src='https://skillicons.dev/icons?i=nodejs' alt='nodejs' />
-        <img src='https://skillicons.dev/icons?i=laravel' alt='laravel' />
+        <div className='flex gap-5 cursor-pointer duration-300 hover:translate-y-[-8px]'>
+          <img
+            src='https://skillicons.dev/icons?i=javascript'
+            alt='javascript'
+          />
+          <img
+            src='https://skillicons.dev/icons?i=typescript'
+            alt='typescript'
+          />
+        </div>
+        <div className='flex gap-5 cursor-pointer duration-300 hover:translate-y-[-8px]'>
+          <img src='https://skillicons.dev/icons?i=react' alt='react' />
+          <img src='https://skillicons.dev/icons?i=vue' alt='vue' />
+        </div>
+        <div className='flex gap-5 cursor-pointer duration-300 hover:translate-y-[-8px]'>
+          <img src='https://skillicons.dev/icons?i=bootstrap' alt='bootstrap' />
+          <img
+            src='https://skillicons.dev/icons?i=tailwindcss'
+            alt='tailwindcss'
+          />
+        </div>
+        <div className='flex gap-5 cursor-pointer duration-300 hover:translate-y-[-8px]'>
+          <img src='https://skillicons.dev/icons?i=nodejs' alt='nodejs' />
+          <img src='https://skillicons.dev/icons?i=laravel' alt='laravel' />
+        </div>
       </div>
 
       <div className='lg:hidden md:hidden gap-11 items-center lg:py-0 md:py-0 py-10'>
