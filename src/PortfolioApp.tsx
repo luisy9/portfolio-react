@@ -19,7 +19,7 @@ export const PortfolioApp = () => {
         </div>
       </div>
       <div className=''>
-        <section className=''>
+        <section className='' id='about'>
           <Projects />
         </section>
       </div>

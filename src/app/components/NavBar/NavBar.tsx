@@ -2,7 +2,7 @@ import { Disclosure } from '@headlessui/react';
 import Logo from '../../../assets/logo.png';
 
 const navigation = [
-  { name: 'About me', href: '#', current: false },
+  { name: 'About me', href: '#about', current: false },
   { name: 'Projects', href: '#', current: false },
   { name: 'CV', href: '#', current: false },
 ];
@@ -13,16 +13,22 @@ function classNames(...classes) {
 
 export const NavBar = () => {
   return (
-    <Disclosure as='nav' className='bg-gray-800 w-full fixed shadow-lg shadow-[#1F2937]-500/20'>
+    <Disclosure
+      as='nav'
+      className='bg-gray-800 w-full fixed shadow-lg shadow-[#1F2937]-500/20'
+    >
       {({ open }) => (
         <>
           <div className='mx-auto px-2 sm:px-6 lg:px-12'>
             <div className='relative flex h-16 items-center justify-between'>
               <div className='flex flex-1 items-center justify-center sm:items-stretch sm:justify-start'>
-                <div className='flex flex-shrink-0 items-center cursor-pointer'>
-                  <img className='h-8 w-auto' src={Logo} alt='Your Company' />
-                  <h1 className='text-white pl-3'>LuisDev</h1>
-                </div>
+                <a href='#'>
+                  <div className='flex flex-shrink-0 items-center cursor-pointer'>
+                    <img className='h-8 w-auto' src={Logo} alt='Your Company' />
+                    <h1 className='text-white pl-3'>LuisDev</h1>
+                  </div>
+                </a>
+
                 <div className='hidden sm:ml-12 sm:block'>
                   <div className='flex space-x-4'>
                     {navigation.map((item) => (

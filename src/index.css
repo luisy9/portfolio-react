@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+#about {
+    animation: fadeIn 1s ease, slideIn 1s ease;
+}

@@ -4,9 +4,7 @@ import Foto from '/davidgoggins.webp';
 export const Presentation = () => {
   const [typeEffect] = useTypewriter({
     words: ['Full Stack Developer'],
-    loop: {},
     typeSpeed: 50,
-    deleteSpeed: 40,
   });
 
   return (
