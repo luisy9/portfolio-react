@@ -2,7 +2,7 @@ export const AboutMe = () => {
     return (
         <>
             <div className='lg:grid lg:grid-cols-2 md:grid-cols-1 grid-cols-1'>
-                <div className="xl:flex xl:justify-start lg:flex lg:justify-start md:flex md:justify-center px-10">
+                <div className="xl:flex xl:justify-start lg:flex lg:justify-start lg:px-0 md:flex md:justify-center md:px-0 px-10">
                     <div className='lg:w-[27rem] md:w-[27rem]'>
                         <img src="./coding&coffe.webp" alt="coding" className="border-none rounded-lg" />
                     </div>

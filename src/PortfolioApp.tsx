@@ -18,7 +18,7 @@ export const PortfolioApp = () => {
           </section>
         </div>
       </div>
-      <div className=''>
+      <div className='mx-auto max-w-7xl py-28 lg:px-16 xl:px-28'>
         <section className='' id='about'>
           <Projects />
         </section>
